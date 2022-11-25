@@ -25,31 +25,30 @@ const sendEmail = (e) => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon"/>
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>szrokmn34@gmail.com</h5>
-            <a href="mailto:szrokmn34@gmail.com" target="_blank">
+            <a href="mailto:hknblg34@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon"/>
+            <RiMessengerLine className="contact__option-icon" />
             <h4>Email</h4>
             <h5>szrokmn34@gmail.com</h5>
-            <a href="mailto:szrokmn34@gmail.com" target="_blank">
+            <a href="mailto:hknblg34@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
 
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon"/>
+            <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+905550306660</h5>
+            <h5>+905055625659</h5>
             <a
-              href="http://api.whatsapp.com/send?phone+905550306660"
-              target="_blank"
-            >
+              href="http://api.whatsapp.com/send?phone+905055625659"
+              target="_blank">
               Send a message
             </a>
           </article>
@@ -68,8 +67,7 @@ const sendEmail = (e) => {
             name="message"
             rows="7"
             placeholder="Your Message"
-            required
-          ></textarea>
+            required></textarea>
           <button className="btn btn-primary">Send Message</button>
         </form>
       </div>
