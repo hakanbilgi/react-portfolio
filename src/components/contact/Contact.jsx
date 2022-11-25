@@ -27,7 +27,7 @@ const sendEmail = (e) => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>szrokmn34@gmail.com</h5>
+            <h5>hknblg34@gmail.com</h5>
             <a href="mailto:hknblg34@gmail.com" target="_blank">
               Send a message
             </a>
@@ -36,7 +36,7 @@ const sendEmail = (e) => {
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>szrokmn34@gmail.com</h5>
+            <h5>hknblg34@gmail.com</h5>
             <a href="mailto:hknblg34@gmail.com" target="_blank">
               Send a message
             </a>
