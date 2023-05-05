@@ -33,12 +33,14 @@ const data = [
 ]
 
 const Testimonials = () => {
+  
   return (
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
+
         // install Swiper modules
         modules={[Pagination]}
         spaceBetween={40}
@@ -47,6 +49,7 @@ const Testimonials = () => {
       >
         {
           data.map(({ avatar, name, review }, index) => {
+
             return (
               <SwiperSlide className="testimonial">
                 <div className="client__avatar">
