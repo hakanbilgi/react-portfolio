@@ -9,12 +9,15 @@ import IMG6 from '../../assets/portfolio6.jpg'
 
 
 const Portfolio = () => {
+
   return (
+
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Potfolio</h2>
 
       <div className="container portfolio__container">
+        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="img1" />
@@ -25,6 +28,7 @@ const Portfolio = () => {
           <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="img2" />
@@ -35,6 +39,7 @@ const Portfolio = () => {
           <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="img3" />
@@ -45,6 +50,7 @@ const Portfolio = () => {
           <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG4} alt="img4" />
@@ -55,6 +61,7 @@ const Portfolio = () => {
           <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG5} alt="img5" />
@@ -65,6 +72,7 @@ const Portfolio = () => {
           <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG6} alt="img6" />
@@ -75,6 +83,7 @@ const Portfolio = () => {
           <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
+
       </div>
     </section>
   )
