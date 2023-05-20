@@ -8,14 +8,14 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
 
-const form = useRef();
+  const form = useRef();
 
-const sendEmail = (e) => {
-  e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  emailjs.sendForm('service_0ea6d9f', 'template_6uouj6n', form.current, 'AyEsP-ObdlYxULLP8')   
-  e.target.reset()
-};
+    emailjs.sendForm('service_0ea6d9f', 'template_6uouj6n', form.current, 'AyEsP-ObdlYxULLP8')
+    e.target.reset()
+  };
 
   return (
     <section id="contact">

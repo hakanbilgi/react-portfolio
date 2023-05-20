@@ -17,16 +17,16 @@ const Portfolio = () => {
       <h2>Potfolio</h2>
 
       <div className="container portfolio__container">
-        
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="img1" />
           </div>
           <h3>This is a portfolio item title</h3>
-         <div className="portfolio__item-cta">
-          <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-         </div>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -34,10 +34,10 @@ const Portfolio = () => {
             <img src={IMG2} alt="img2" />
           </div>
           <h3>This is a portfolio item title</h3>
-         <div className="portfolio__item-cta">
-          <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-         </div>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -45,10 +45,10 @@ const Portfolio = () => {
             <img src={IMG3} alt="img3" />
           </div>
           <h3>This is a portfolio item title</h3>
-         <div className="portfolio__item-cta">
-          <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-         </div>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -56,10 +56,10 @@ const Portfolio = () => {
             <img src={IMG4} alt="img4" />
           </div>
           <h3>This is a portfolio item title</h3>
-         <div className="portfolio__item-cta">
-          <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-         </div>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -67,10 +67,10 @@ const Portfolio = () => {
             <img src={IMG5} alt="img5" />
           </div>
           <h3>This is a portfolio item title</h3>
-         <div className="portfolio__item-cta">
-          <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-         </div>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -78,10 +78,10 @@ const Portfolio = () => {
             <img src={IMG6} alt="img6" />
           </div>
           <h3>This is a portfolio item title</h3>
-         <div className="portfolio__item-cta">
-          <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-         </div>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/hakanbilgi" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
       </div>
