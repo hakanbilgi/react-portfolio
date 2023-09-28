@@ -10,6 +10,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const data = [
+
+  
   {
     avatar: AVTR1,
     name: 'Tina Snow',
@@ -33,7 +35,7 @@ const data = [
 ]
 
 const Testimonials = () => {
-  
+
   return (
     <section id="testimonials">
       <h5>Review from clients</h5>
@@ -51,7 +53,7 @@ const Testimonials = () => {
           data.map(({ avatar, name, review }, index) => {
 
             return (
-              
+
               <SwiperSlide className="testimonial">
                 <div className="client__avatar">
                   <img src={avatar} alt="avatar" />
