@@ -5,6 +5,7 @@ import ME from '../../assets/me-about4.png'
 import HeaderSocial from './HeaderSocials'
 
 const Header = () => {
+
   return (
     <div className="container header__container">
       <h5>Hello I'm</h5>
@@ -18,5 +19,6 @@ const Header = () => {
       <a href="contact" className='scroll__down'>Scroll Down</a>
     </div>
   )
+  
 }
 export default Header
