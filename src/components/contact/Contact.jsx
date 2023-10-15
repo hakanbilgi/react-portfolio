@@ -3,18 +3,22 @@ import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
-import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_0ea6d9f', 'template_6uouj6n', form.current, 'AyEsP-ObdlYxULLP8')
-    e.target.reset()
+    emailjs.sendForm(
+      "service_0ea6d9f",
+      "template_6uouj6n",
+      form.current,
+      "AyEsP-ObdlYxULLP8"
+    );
+    e.target.reset();
   };
 
   return (
