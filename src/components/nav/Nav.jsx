@@ -10,6 +10,7 @@ const Nav = () => {
   return (
     
     <nav>
+      
       <a
         href="#"
         onClick={() => setActiveNav("#")}
