@@ -7,6 +7,10 @@ import HeaderSocial from './HeaderSocials'
 const Header = () => {
 
   return (
+
+
+
+    
     <div className="container header__container">
       <h5>Hello I'm</h5>
       <h1>Hakan BILGI</h1>
@@ -19,6 +23,9 @@ const Header = () => {
       <a href="contact" className='scroll__down'>Scroll Down</a>
     </div>
   )
+
+  
+
   
 }
 export default Header
