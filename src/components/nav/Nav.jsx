@@ -25,6 +25,10 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
 
+
+
+
+
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
